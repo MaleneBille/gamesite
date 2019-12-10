@@ -1,0 +1,104 @@
+  /* Index, Hero List */
+ .image-responsive, .bg-images {
+     max-width: 100%;
+     height: auto;
+ }
+
+ .heros-link {
+    position: relative;
+    display: flex;
+    margin-bottom: $grid-gutter-width;
+    height: calc(100% - #{$grid-gutter-width});
+}
+
+.heros-title {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   bottom: 1px;
+   width: 100%;
+   color: $color-light;
+   background-color: $color-bg;
+}
+
+ /* Login, Register */
+ .button-send {
+     border: none;
+     padding: 4px 24px;
+     border-radius: 2px;
+     color: $color-light;
+     background-color: $color-primary;
+     &:hover {
+        background-color: $color-primary;
+        opacity: 0.8;
+     }
+ }
+
+/*  */
+ .hero {
+    display: flex;
+    align-items: flex-start;
+    color: $color-light;
+ }
+
+/* Games */
+.game-text {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   p {
+       color: $color-light;
+   }
+}
+
+ .counter, .points {
+    position: fixed;
+    left: -135px;
+    max-width: 130px;
+    background-color: $color-primary;
+    color: $color-light;
+    padding: 3px;
+ }
+
+ .counter {
+    top: 0;
+ }
+
+ .points {
+    top: 80px;
+ }
+
+.modal-open .modal.modal-game {
+     overflow-y: hidden;
+}
+
+.modal-game .modal-dialog {
+   max-width: 800px;
+}
+
+/* Hero Page */
+ .hero-title {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 50px;
+     text-align: center;
+     color: $color-light;
+ }
+
+ .hero-description {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: $color-light;
+ }
+
+ .image-heropage {
+     max-height: 400px;
+ }
+
+ 
+.highscore {
+   list-style-type: none; 
+   color: $color-light;
+}

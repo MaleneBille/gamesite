@@ -1,0 +1,36 @@
+.logo {
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: $color-primary;
+}
+
+.username {
+    text-transform: capitalize;
+}
+
+.on-off img {
+    margin-left: 10px;
+    &:hover {
+        background-color: $color-primary;
+        border-radius: 50px;
+        color: $color-light;
+        margin-left: 10px;
+    }
+}
+
+.nav-link {
+    color: $color-primary;
+    &:hover {
+        background-color: $color-primary;
+        border-radius: 2px;
+        color: $color-light;
+    }
+}
